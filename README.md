@@ -1,7 +1,7 @@
-[![](https://img.shields.io/badge/YouTube-401n3-red.svg)](https://www.youtube.com/playlist?list=PLVngfM2hsbi-4r137vkKXErxF_f-mH2uV)
-[![](https://img.shields.io/badge/canvas-401n3-blue.svg)](https://canvas.instructure.com/courses/1092740/modules)
-[![](https://img.shields.io/badge/Labs-401n3-yellow.svg)](https://github.com/codefellows-seattle-301n6)
-[![](https://img.shields.io/badge/slack-401n3-orange.svg)](https://codefellows.slack.com/messages/seattle-301n6)
+[![](https://img.shields.io/badge/YouTube-301n6-red.svg)](https://www.youtube.com/playlist?list=PLVngfM2hsbi-4r137vkKXErxF_f-mH2uV)
+[![](https://img.shields.io/badge/canvas-301n6-blue.svg)](https://canvas.instructure.com/courses/1092740/modules)
+[![](https://img.shields.io/badge/Labs-301n6-yellow.svg)](https://github.com/codefellows-seattle-301n6)
+[![](https://img.shields.io/badge/slack-301n6-orange.svg)](https://codefellows.slack.com/messages/seattle-301n6)
 
 # Code 301: Intermediate Software Development
 
