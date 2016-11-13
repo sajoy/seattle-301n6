@@ -126,3 +126,15 @@ Enter the following into your Terminal:
  You should get a long list and at the end you should get a list of packages you installed for Atom. Linter and linter-eslint should be on that list.
 
 Congrats! You're all done.
+
+
+# Weekly Pair Programming Partners
+
+Week    | Pair One    | Pair Two         | Pair Three    
+--------|-------------|------------------|--------------
+Week 1  | Kaylee/Dana  | Meagan/Chris | Rosie/Maithrika
+Week 2  | Meagan/Kaylee | Maithrika/Chris |  Rosie/Dana
+Week 3  | Chris/Dana | Rosie/Kaylee | Meagan/Maithrika
+Week 4  | Maithrika/Dana | Kaylee/Chris | Meagan/Rosie
+Week 5  | Rosie/Chris | Maithrika/Kaylee | Dana/Meagan
+Week 6  | Dana/Rosie | Meagan/Kaylee | Maithrika/Chris
