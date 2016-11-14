@@ -8,18 +8,19 @@
 4. RWD
   1. What is mobile first design?
   2. How is RWD used for mobile development?
-  3. What is the difference between responsive and adaptive design?
+  3. Icon Fonts
   4. What is the formula for flexible layouts?
   5. Logical operators to facilitate @media queries.
   6. Building from mobile first to control scaling.
   7. Understanding how to use viewport meta tags.
     - Demo: Live-server: 172.16.0.24:8080  
-  8. Icon Fonts
-  9. Familiarity with using resets as base stylesheets.
-  10. Understanding how SMACSS breaks down a site’s CSS into categories.
+  8. Familiarity with using resets as base stylesheets.
+  9. Understanding how SMACSS breaks down a site’s CSS into categories.
 
 
 ## Tools & code notes
+- Reminder: No more opening files locally, such as using 'open in browser'.
+  - Use `live-server`!!
 - install the `linter-jsonlint` package for atom
 - enable `'use strict'` for all JavaScript files
 - always use a `.gitignore` (keep it updated), and an `.eslintrc` file for linting your JS
