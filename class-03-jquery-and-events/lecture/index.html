@@ -10,8 +10,8 @@
     <header>
       <nav>
         <ul>
-          <li><a href="#" data-tab="delegation">Delegation/Data</a></li>
-          <li><a href="#" data-tab="attributes">Attributes/Props</a></li>
+          <li class='nav-items'><a href="#" data-tab="delegation">Delegation/Data</a></li>
+          <li class='nav-items'><a href="#" data-tab="attributes">Attributes/Props</a></li>
         </ul>
       </nav>
     </header>
@@ -20,36 +20,24 @@
 
       <section id="delegation" class="tab-content">
 
-        <ul id="menu1">
-          <li class="menu-item icon-home">Home</li>
+        <ul class="menus" id="menu1">
+          <li class="menu-item">Home</li>
           <li class="menu-item">About</li>
           <li class="menu-item">Donate</li>
         </ul>
 
-        <ul id="menu2">
+        <ul class="menus" id="menu2">
           <li class="menu-item">Home2</li>
           <li class="menu-item">About2</li>
           <li class="menu-item">Donate2</li>
         </ul>
 
-        <button type="button" name="adder1">Add a menu1 element</button>
-        <button type="button" name="adder2">Add a menu2 element</button>
-        <button type="button" name="clear">Clear log</button>
-
-        <article id="feedback">
-
-          <p class="log-item"></p>
-
-        </article>
+        <button type="button" name="adder1" data-menu="menu1">Add a menu1 element</button>
+        <button type="button" name="adder2" data-menu="menu2">Add a menu2 element</button>
 
       </section>
 
       <section id="attributes" class="tab-content">
-
-        <label for="check">Check me:</label>
-        <input type="checkbox" name="check" checked="">
-
-        <p id="checked-state"></p>
 
         <label for="icecream">Choose a flavor:</label>
         <select name="icecream">

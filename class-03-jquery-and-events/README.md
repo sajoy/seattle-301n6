@@ -18,8 +18,3 @@ We will use jQuery's event handling APIs to make this happen, rather than the va
  - W3C RFC: http://www.w3.org/TR/DOM-Level-2-Events/events.html
  - Color selection help: https://coolors.co
  - Color selection help: http://paletton.com
-
-## Class Videos
- [Part 1]()
- [Part 2]()
- [Part 3]()
