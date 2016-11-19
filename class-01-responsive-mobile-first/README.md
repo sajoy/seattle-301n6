@@ -8,12 +8,14 @@
 4. RWD
   1. What is mobile first design?
   2. How is RWD used for mobile development?
-  3. Icon Fonts
   4. What is the formula for flexible layouts?
-  5. Logical operators to facilitate @media queries.
   6. Building from mobile first to control scaling.
+  3. Icon Fonts
   7. Understanding how to use viewport meta tags.
-    - Demo: Live-server: 172.16.0.24:8080  
+  - Demo: Live-server: 172.16.11.9:8080  
+  5. Logical operators to facilitate @media queries.
+
+  
   8. Familiarity with using resets as base stylesheets.
   9. Understanding how SMACSS breaks down a site’s CSS into categories.
 

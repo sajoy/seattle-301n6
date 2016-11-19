@@ -2,9 +2,13 @@
 
 ## Daily Plan
 
-1. Code Review
+8. Familiarity with using resets as base stylesheets.
+9. Icon Fonts
+9. Understanding how SMACSS breaks down a site’s CSS into categories.
+
 2. jQuery Intro
 3. Lab workflow review - how are we doing with Git, upstream, etc?
+4. Portfolio - How we doin'?
 
 jQuery is a powerful JavaScript library that gives developers a new way of interacting with the DOM. In lecture and assignments, you'll get a taste of what it can do and practice using it to build your own apps.
 
