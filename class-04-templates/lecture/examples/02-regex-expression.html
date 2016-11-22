@@ -4,25 +4,27 @@
 
   <meta charset="UTF-8">
   <title>Minimal jQuery Template with Regex</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js" charset="utf-8"></script>
 
-  <script id="hello" type="text/template">
-    Hello {{0}}, my name is {{1}}, and I like {{2}}
-  </script>
+  <!-- Add a template with mock-handlebar syntax -->
 </head>
 <body>
   <div id="app"></div>
   <script>
+  // Review this compile function
     var compile = function(template, expressions) {
       return appTemplate.replace(/{{(\d+)}}/g, swapper);
-      // where
+
       function swapper(match, number) {
         return expressions[number];
       };
     };
-    var appTemplate = $('#hello').html()
-    var compiledTemplate = compile(appTemplate, ["Students", "Ivan", "Apples"]);
-    $('#app').append(compiledTemplate);
+    // Get the content of the Template
+    // Compile the template and values to mix in
+    // Append the content to the DOM
+
+
+  // Refactor to show with a data object (key/val pairs)
   </script>
 
 </body>

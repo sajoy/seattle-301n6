@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Handlebars Template</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js" charset="utf-8"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
 
   <script id="template" type="text/x-handlebars-template">
+    <!-- Review the syntax -->
     <section>
       <p>{{ title }}</p>
       <ul>
@@ -21,17 +22,10 @@
 <body>
   <div id="results"></div>
   <script type="text/javascript">
-    var data = {
-      title: "301 Rocks",
-      name: "Yamile",
-      age: "99",
-      favorite: "Apple iPhone"
-    };
-
-    // var htmlTemp = $('#template');
-    var template = Handlebars.compile($('#template').html());
-    $('#results').append(template(data));
-
+    // create a data object
+    // Grab the template
+    // Compile the template
+    // Append the results to the DOM
   </script>
 </body>
 </html>
