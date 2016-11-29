@@ -36,5 +36,6 @@ articles.forEach(function(a){
 });
 
 $('pre code').each(function(i, block) {
+  console.log(block);
   hljs.highlightBlock(block);
 });
