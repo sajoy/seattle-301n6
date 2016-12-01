@@ -20,6 +20,19 @@ Pair up to work on the MVC blog, then take what you learn to your portfolio site
   - hide the gory details of HOW to do an operation
 - imperative vs. declarative
   - saying all the steps vs. saying what you want
+  ```javascript
+  let count = 0
+  function increment() {
+    count += 1
+  }
+  ```
+  vs.
+  ```javascript
+  function increment(num) {
+    return num += 1
+  }
+  ```
+
 - higher-order functions
   - a function that either takes another function as an argument or returns a function
 - side effects
@@ -43,15 +56,6 @@ Pair up to work on the MVC blog, then take what you learn to your portfolio site
   - idempotence
   - an operation that gives the same output no matter how many times you do it
   - examples: crosswalk button, read a file, get an object property, HTTP GET, toUpperCase(), parseFloat()
-
-
-**Exercise**: Rewrite the below function in a functional programming approach
-  ```javascript
-  let count = 0
-  function increment() {
-    count += 1
-  }
-  ```
 
 
 ## functional array methods
