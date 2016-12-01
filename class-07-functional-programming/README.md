@@ -4,8 +4,6 @@
 1. Code Review
 2. Functional Programming Overview
 3. Scope / Modular IIFE Structure
-4. Git 301
-  - Merge Conflicts
 
 Step into the declarative paradigm.
 
@@ -16,6 +14,8 @@ Pair up to work on the MVC blog, then take what you learn to your portfolio site
 ## keywords
 - functional!!
   - shift the focus of your approach from objects to functions
+  - doesn't rely on exterior data
+  - the absence of side effects!
 - abstraction
   - hide the gory details of HOW to do an operation
 - imperative vs. declarative
@@ -24,9 +24,6 @@ Pair up to work on the MVC blog, then take what you learn to your portfolio site
   - a function that either takes another function as an argument or returns a function
 - side effects
   - mutate some data or state outside the function
-- pure functions
-  - a function that doesn't cause ANY side effects
-  - given the same input, will ALWAYS return the same result
 - immutability
   - values cannot be changed once they are created
   - create new values by transforming an existing value and saving the result
@@ -43,9 +40,19 @@ Pair up to work on the MVC blog, then take what you learn to your portfolio site
 
   const b = a + 1 // b === 2, a === 1
   ```
-- idempotence
+  - idempotence
   - an operation that gives the same output no matter how many times you do it
   - examples: crosswalk button, read a file, get an object property, HTTP GET, toUpperCase(), parseFloat()
+
+
+**Exercise**: Rewrite the below function in a functional programming approach
+  ```javascript
+  let count = 0
+  function increment() {
+    count += 1
+  }
+  ```
+
 
 ## functional array methods
 - map
