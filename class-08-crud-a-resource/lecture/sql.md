@@ -162,8 +162,8 @@ webDB.execute(
 webDB.execute(
   [
     {
-      sql: 'SELECT * FROM people WHERE id = ?;',
-      data: [id]
+      sql: 'SELECT * FROM people WHERE id = ? AND name = ?;',
+      data: [id, name]
     }
   ],
   callback

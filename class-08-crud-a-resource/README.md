@@ -3,6 +3,9 @@
 # Daily Plan
 - Code Review
 - Models overview
+- Postgres install / terminal access
+  - Postgres startup: (Put this in your .bashrc/.bash_profile)
+    - `alias pgstart='pg_ctl -D /usr/local/var/postgres/ -l /usr/local/var/postgres/server.log start'`
 - SQL
 - Assignment Review (abstraction of DB)
 - Estimating Time
@@ -15,8 +18,3 @@ Databases power web applications everywhere by enabling them to persist, modify,
  - [WebSQL introduction and example](http://html5doctor.com/introducing-web-sql-databases/)
  - [html5sql library](http://html5sql.com/) -- This is what powers the `webDB` object. Peek under the hood!
  - [Query String Primer](https://en.wikipedia.org/wiki/Query_string)
-
-## Videos
-[Part 1]()
-[Part 2]()
-[Part 3]()

@@ -5,11 +5,6 @@
 - SQL Joins & Relations
 - Code Challenges (In-class exercise)
 
-# Class Videos
-[Part 1]()
-[Part 2]()
-[Part 3]()
-
 
 Challenge # 1:
 FIZZBUZZ
