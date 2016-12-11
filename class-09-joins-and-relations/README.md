@@ -6,27 +6,42 @@
 - Code Challenges (In-class exercise)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Challenge # 1:
 FIZZBUZZ
 
-```javascript
+```
 function fizzbuzz(n) {
   // do the code
 }
 
-// n = 100 => 1, 2, FIZZ, 4, BUZZ, .... 14, FIZZBUZZ, 16, ... 100
+// n = 100 => 1, 2, FIZZ, 4, BUZZ, .... 14, FIZZBUZZ, 16, ... 99, BUZZ
 ```
 
 
 Challenge # 2:
 Reverse a string
 
-```javascript
+```
 function reverseStr(str) {
   // reverse the str
 }
 
-// str = 'buckets of jello' => 'ollej fo stekcub'
+// str => 'buckets of jello' => 'ollej fo stekcub'
 ```
 
 Challenge # 3:
