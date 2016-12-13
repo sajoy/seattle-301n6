@@ -2,7 +2,14 @@
 
 ## Class09 Lab Obstacles
 - Lets talk about the challenges of building something from scratch!
-* 
+  * Challenging to put all the pieces in the right place.
+  * Have point A and point B but don't quite know how to get there.
+  * Having to read g-maps docs to get it done.
+  - Solutions
+    * Read the docs
+    * Asked questions
+    * Trial and error
+    
 
 
 ## Daily Plan
