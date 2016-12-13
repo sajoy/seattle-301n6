@@ -1,17 +1,11 @@
 # Class 10
 
 ## Class09 Lab Obstacles
-- Putting it all together
-- How to deal with the data that SQL queries send back
-- Knowing what to put where...
-- Organization
-- Figuring out the Google Maps API
-- Know the What, not the How
--
+- Lets talk about the challenges of building something from scratch!
+* 
 
 
 ## Daily Plan
-- housekeeping: new pairs!
 - code review
 
 - Model review
