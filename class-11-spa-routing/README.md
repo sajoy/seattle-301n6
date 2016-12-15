@@ -81,8 +81,3 @@ examples:
 - What is a Single-Page Application (SPA), with live demo: http://www.johnpapa.net/pageinspa/
 - Gallery of example SPAs: https://onepagelove.com/gallery/application
 - Page.js docs: https://visionmedia.github.io/page.js
-
-## Class Videos
-[Part 1]()
-[Part 2]()
-[Part 3]()
