@@ -13,6 +13,7 @@ const PORT = process.env.PORT || 3000
 app.use(express.static('./public'))
 
 //check all get requests that haven't been caught by the GH route
+// app.get('http://localhost:3000')
 app.get('/', function(request, response) {
   //no matter what the request is, respond by sending index.html
   response.sendFile('index.html', { root: './public' })

@@ -20,25 +20,18 @@ At the heart of every web app is the Web Request-Response Cycle. Pay close atten
 
 - routes = the public API
 ```
-GET: /
-GET: /about
-GET: /articles
-GET: /articles/:id
+GET: / => localhost:3000
+GET: /about => localhost:3000/about
+GET: /articles => localhost:3000/articles
+GET: /articles/:monkey => localhost:3000/articles/3
+GET: /articles?monkey=3&state=WA&
+  obj.monkey => 3
 ```
 
 - use the URL to to derive app state & define requests
   - `hipmunk.com/flights#f=SEA;t=HNL;d=2015-12-22`
   - use ajax & JS to create the requested views
   - avoid HTTP requests
-- need a way to access browser history
-
-## The History API
-- available via `window.history`
-- [docs!](https://developer.mozilla.org/en-US/docs/Web/API/History_API)
-- manipulate history without loading new pages
-  - `history.pushState()`
-    - add an entry to the history object
-    - can pass a state object & URL for that entry
 
 ## Client-side Routing
 
