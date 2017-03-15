@@ -11,4 +11,5 @@ $.ajax({
   },
   err => {
     console.error(err)
-  })
+  }
+)
